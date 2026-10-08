@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 85vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+header {
+  height: 10vh;
+  padding: 12px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 42px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.search {
+  background-color: #212121;
+  border-radius: 99999px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+}
+
+.input-search {
+  background: none;
+  color: #808080;
+  border: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.red-text {
+  color: #ff3b5c;
+  font-weight: 700;
+  font-family: Inter;
+}
+
+.white-text {
+  color: white;
+  font-weight: 700;
+  font-family: Inter;
+}
+
+.login {
+  background-color: #ff3b5c;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 12px;
+}
+
+.grey {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text2 {
+  color: #7e7e7e;
+  font-weight: 800;
+  font-family: Inter;
+}
+
+.mid {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 595px;
+  padding-bottom: 20px;
+}
+
+.video {
+  padding-right: 30px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.pdp-box {
+  padding-bottom: 15px;
+}
+
+.pdp {
+  border-radius: 99999px;
+  width: 44px;
+  height: 44px;
+}
+
+.profile-button {
+  border-radius: 9999px;
+  height: 44px;
+  width: 44px;
+  border: none;
+  background-color: #212121;
+}
+
+.music {
+  border-radius: 9999px;
+  width: 44px;
+  height: 44px;
+}
