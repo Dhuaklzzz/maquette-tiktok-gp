@@ -16,11 +16,16 @@ header {
   padding: 12px;
 }
 
+.logo-tiktok {
+  padding-bottom: 12px;
+}
+
 main {
   display: flex;
-  padding: 42px;
+  height: 100vh;
   width: 75%;
   justify-content: space-around;
+  align-items: center;
 }
 
 .left {
@@ -93,14 +98,61 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  height: 595px;
+  align-items: center;
+  height: 90vh;
   padding-bottom: 20px;
+  gap: 5px;
 }
 
 .video {
-  width: 380px;
-
   overflow: hidden;
+  height: 75%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.background-video {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  gap: 5px;
+}
+
+.number {
+  color: white;
+  font-family: Inter;
+  font-size: 12px;
+}
+
+.name {
+  color: white;
+  font-family: Inter;
+}
+
+.hr {
+  display: flex;
+  width: 100%;
+}
+
+.hr2 {
+  background-color: grey;
+  height: 3px;
+  width: 60%;
+  border: none;
+}
+
+.hr1 {
+  background-color: red;
+  width: 40%;
+  height: 3px;
+  border: none;
+}
+
+.description {
+  color: #a6a6a6;
+  font-family: Inter;
 }
 
 .pdp-box {
@@ -119,6 +171,9 @@ main {
   width: 44px;
   border: none;
   background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .music {
@@ -143,7 +198,7 @@ main {
   gap: 10px;
   background-color: #212121;
   border-radius: 999px;
-  padding: 6px 10px;
+  padding: 10px 16px;
 }
 
 .bottom {
